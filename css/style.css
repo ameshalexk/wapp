@@ -7,9 +7,10 @@
 
 body {
     background-image: linear-gradient(rgb(92,100,221), rgb(197,150,197)) ;
+    height: 100vh;
 }
 
-.container {
+.maincontainer {
     max-width: 955px;
     background-image: red;
     margin: auto;

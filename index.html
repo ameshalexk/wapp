@@ -9,13 +9,20 @@
 </head>
 <body>
     <nav>
-        <img class='logo' src="chat.png" alt="">
+        <img class='logo' src="img.png" alt="">
     </nav>
-    <div class="container">
-        <div class="message left"> 
-        </div>
+    <div class="maincontainer">
         <div class="message right"> 
         </div>
+        <div class="message left"> 
+        </div>
+        <div class="submit">
+            <form action="/chat" id='submitcontainer' method="post">
+            <input type="text" name="textinput" id="textinput">
+            <button type="submit" class="submitbutton">Submit</button>
+            </form>
+        </div>
+
     </div>
 </body>
 </html>
